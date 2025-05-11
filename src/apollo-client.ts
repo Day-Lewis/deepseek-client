@@ -1,5 +1,4 @@
-import { ApolloClient, InMemoryCache, HttpLink, split } from '@apollo/client';
-import { getMainDefinition } from '@apollo/client/utilities';
+import { ApolloClient, InMemoryCache, HttpLink } from '@apollo/client';
 
 // 你的GraphQL API endpoint
 const httpLink = new HttpLink({
